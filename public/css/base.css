@@ -1,0 +1,99 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html{
+    font:14px normal Arial, sans-serif;
+    color:#626771;
+    background-color:#fff;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.mood {
+	border-radius: 12px;
+    background-color: #738873;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.happy {
+	border-radius: 50%;
+	border: 2px solid #555555;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    cursor: pointer;
+}
+
+.mad {
+	border-radius: 50%;
+    background-color: #504caf;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    cursor: pointer;
+}
+
+.sad {
+	border-radius: 50%;
+	border: 2px solid #555555;
+    background-color: #af504c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    border: 2px solid #555555;
+}
